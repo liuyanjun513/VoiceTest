@@ -44,8 +44,8 @@ public class MainActivity extends AppCompatActivity{
                     //set a prompt
                     intent.putExtra(RecognizerIntent.EXTRA_PROMPT, "Recoginizing...");
 
-                    //change the language to mandarin.
-                    intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.CHINA.toString());
+//                    //change the language to mandarin.
+//                    intent.putExtra(RecognizerIntent.EXTRA_LANGUAGE, Locale.CHINA.toString());
 
                     //start activity
                     startActivityForResult(intent, VOICE_RECOGNITION_REQUEST_CODE);
